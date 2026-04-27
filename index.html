@@ -331,16 +331,14 @@ Customise the visual style and appearance of your guide.
       /* Advanced CSS for item number styling */
       .step-by-step li:before {
         content: "";
-        width: 40px;
-        height:80px;
+        width: 60px;
+        height: 60px;
         position: absolute;
-        top:0;
-        left:-40px;
-        z-index:-1;
-        background: #eef5df; 
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 50px;
-        border-top-right-radius: 15px;  
+        top: -10px;
+        left: -60px;
+        z-index: -1;
+        background: #eef5df;
+        border-radius: 50px 0 0 50px;     /* Rounded left, sharp right */
       }
 
       /* Styles for sub-list item numbering */
